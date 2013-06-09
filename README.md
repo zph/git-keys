@@ -1,7 +1,5 @@
 # Git::Keys
 
-TODO: Write a gem description
-
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -18,7 +16,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    This provides an additional method to git for gathering public keys from Github.
+
+    `git keys zph`
 
 ## Contributing
 
@@ -27,3 +27,7 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+There are no tests in this gem because it connects to one single endpoint.  If it bothers you, send tests with a PR.
+
+Feedback, thoughts, thanks to [@_ZPH](http://twitter.com/_ZPH) or drop me a message at Zander at [civet.ws](http://civet.ws)
