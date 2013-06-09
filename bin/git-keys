@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH.unshift(File.dirname(__FILE__), '..', 'lib')
+require 'git/keys'
+
+output = Git::Keys.collect(ARGV[0])
+puts output
+exit 0
