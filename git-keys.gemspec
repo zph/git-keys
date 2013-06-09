@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Git::Keys::VERSION
   spec.authors       = ["ZPH"]
   spec.email         = ["Zander@civet.ws"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{Git-keys gathers a user's public key from Github}
+  spec.summary       = %q{Git-keys is a convenience gem for gathering a user's public key from Github.}
+  spec.homepage      = "https://github.com/zph/git-keys"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
